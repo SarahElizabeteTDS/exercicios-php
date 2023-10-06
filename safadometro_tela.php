@@ -1,14 +1,14 @@
 <h1>Safadômetro</h1>
 
-<form>
+<form action="safadometro.php">
 
-    <input type="text" placeholder="Informe o dia... ">
+    <input type="text" placeholder="Informe o dia(dd)... ">
     <br/>
     <br/>
-    <input type="text" placeholder="Informe o mês...">
+    <input type="text" placeholder="Informe o mês(mm)...">
     <br/>
     <br/>
-    <input type="text" placeholder="Informe o ano...">
+    <input type="text" placeholder="Informe o ano(aa)...">
     <br/>
     <br/>
 
