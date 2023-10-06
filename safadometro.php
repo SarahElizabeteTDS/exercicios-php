@@ -15,7 +15,7 @@ function safadometro(int $dia, int $mes, int $ano)
     print "Seu nível de anjo é: $anjo\n";
 }    
 
-function somatorio($mes)
+function somatorio(int $mes)
 {
     $soma = 0;
 
