@@ -1,8 +1,8 @@
 <?php
 
-$dia = readline("Informe seu dia de nascimento: ");
-$mes = readline("Informe seu mes de nascimento: ");
-$ano = readline("Informe seu ano de nascimento (em formado aa): ");
+$dia = $_REQUEST['campoDia'];
+$mes = $_REQUEST['campoMes'];
+$ano = $_REQUEST['campoAno'];
 
 safadometro($dia,$mes,$ano);
 
