@@ -2,13 +2,13 @@
 
 <form action="safadometro.php">
 
-    <input type="text" placeholder="Informe o dia(dd)... ">
+    <input type="text" placeholder="Informe o dia(dd)... " name="campoDia">
     <br/>
     <br/>
-    <input type="text" placeholder="Informe o mês(mm)...">
+    <input type="text" placeholder="Informe o mês(mm)..." name="campoMes">
     <br/>
     <br/>
-    <input type="text" placeholder="Informe o ano(aa)...">
+    <input type="text" placeholder="Informe o ano(aa)..." name="campoAno">
     <br/>
     <br/>
 
