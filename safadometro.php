@@ -11,8 +11,8 @@ function safadometro(int $dia, int $mes, int $ano)
 {
     $safadeza = somatorio($mes) + ($ano/100) * (50-$dia);
     $anjo = 100 - $safadeza;
-    print "Seu nível de safadeza é: $safadeza\n";
-    print "Seu nível de anjo é: $anjo\n";
+    print "Seu nível de safadeza é: {$safadeza}%\n";
+    print "Seu nível de anjo é: {$anjo}%\n";
 }    
 
 function somatorio(int $mes)
